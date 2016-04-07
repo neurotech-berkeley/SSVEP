@@ -9,6 +9,7 @@ from scipy import fftpack, signal
 from scipy.io import loadmat
 from matplotlib import pylab as plt
 
+sys.path.append('./python-emotiv')
 from emotiv import utils
 
 if __name__ == '__main__':
